@@ -1,0 +1,29 @@
+version: 2
+updates:
+  - package-ecosystem: 'npm' # See documentation for possible values
+    directory: '/' # Location of package manifests
+    schedule:
+      interval: 'daily'
+      time: '09:15'
+      timezone: 'Europe/Berlin'
+    commit-message:
+      prefix: 'chore(node)'
+    labels:
+      - 'dependencies'
+    open-pull-requests-limit: 100
+    rebase-strategy: auto
+    reviewers:
+      - 'janhartje'
+    target-branch: main
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    commit-message:
+      prefix: 'chore(workflow)'
+    schedule:
+      interval: 'daily'
+      time: '09:15'
+      timezone: 'Europe/Berlin'
+    open-pull-requests-limit: 100
+    rebase-strategy: auto
+    reviewers:
+      - 'janhartje'
