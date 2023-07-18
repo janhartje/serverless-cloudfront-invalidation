@@ -1,6 +1,6 @@
 {
 	"name": "serverless-cloudfront-invalidation",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Serverless Plugin to Invalidate Cloudfront Distributions",
 	"main": "index.js",
 	"scripts": {
