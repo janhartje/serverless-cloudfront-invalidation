@@ -5,7 +5,7 @@ import chalk from 'chalk';
 import fs from 'fs';
 import https from 'https';
 
-class CloudfrontInvalidation {
+export default class CloudfrontInvalidation {
 
     constructor(serverless, options) {
         this.serverless = serverless;
@@ -144,5 +144,3 @@ class CloudfrontInvalidation {
         return this.invalidateElements(this.serverless.service.custom.cloudfrontInvalidation);
     }
 }
-
-module.exports = CloudfrontInvalidation;
