@@ -1,9 +1,9 @@
 'use strict';
 
-const randomstring = require('randomstring');
-const chalk = require('chalk');
-const fs = require('fs');
-const https = require('https');
+import randomstring from 'randomstring';
+import chalk from 'chalk';
+import fs from 'fs';
+import https from 'https';
 
 class CloudfrontInvalidation {
 
