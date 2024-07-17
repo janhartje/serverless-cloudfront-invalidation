@@ -1,6 +1,6 @@
 {
 	"name": "serverless-cloudfront-invalidation",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "Serverless Plugin to Invalidate Cloudfront Distributions",
 	"main": "index.js",
 	"scripts": {
@@ -23,7 +23,7 @@
 		"url": "https://github.com/janhartje/serverless-cloudfront-invalidation/issues"
 	},
 	"peerDependencies": {
-		"serverless": "^4.1.12"
+		"serverless": "3.39"
 	},
 	"homepage": "https://github.com/janhartje/serverless-cloudfront-invalidation#readme",
 	"dependencies": {
